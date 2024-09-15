@@ -1,9 +1,15 @@
 zone_id="添加区域id"
+
 email="你的cf邮箱"
+
 global="全局api"
+
 srv_id="mc访问的域名的recordid"
+
 a_id="srv目标域名的recordid"
+
 external_domain="srv目标域名"
+
 srv_domain="mc访问的域名"
 
 获取recordid
