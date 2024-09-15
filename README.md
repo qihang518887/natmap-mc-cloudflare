@@ -13,7 +13,9 @@ external_domain="srv目标域名"
 srv_domain="mc访问的域名"
 
 获取recordid
+
 curl --request GET   --url https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records   --header "X-Auth-Key: {global_api}"   --header "X-Auth-Email: {email}"   --header "Content-Type: application/json"
+
 在返回值中查找对应name记录的id
 
 变量填好后，执行 ./natmap-linux-x86_64 -s stun.cloudflare.com -h qq.com -b 0 -e ./update.sh
